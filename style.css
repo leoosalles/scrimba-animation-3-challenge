@@ -1,0 +1,37 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --spinner: #f3f3f3;
+    --spinner-active: purple;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    box-sizing: border-box;
+    width: 15%;
+    aspect-ratio: 1/1;
+    min-width: 100px;
+    border: 20px solid var(--spinner);
+    border-top: 1em solid var(--spinner-active);
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
