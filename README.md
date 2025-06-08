@@ -1,5 +1,7 @@
-# scrimba-animation-3-challenge
-A simple yet effective CSS-only loading animation, designed for smooth and modern spinner effects without JavaScript.
+<h1>CSS Loading Animation 🌀</h1>
+<p>
+  A <strong>simple yet effective CSS-only loading animation</strong>, designed for smooth and modern spinner effects <strong>without JavaScript</strong>.
+</p>
 <h2>✨ Features</h2>
 <ul>
   <li>
